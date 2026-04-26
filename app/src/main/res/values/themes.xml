@@ -1,0 +1,8 @@
+<resources>
+    <style name="Theme.JNIDemo" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#C2714F</item>
+        <item name="colorPrimaryDark">#A85C3A</item>
+        <item name="colorAccent">#E8A87C</item>
+        <item name="android:windowBackground">#F5ECD7</item>
+    </style>
+</resources>

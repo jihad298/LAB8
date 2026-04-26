@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F5ECD7">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/jungleToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#C2714F"
+        android:title="JNI Demo"
+        android:titleTextColor="#FFFFFF" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+            <TextView
+                android:id="@+id/tvHello"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hello JNI"
+                android:textSize="18sp"
+                android:textColor="#5C3D2E"
+                android:paddingBottom="16dp" />
+
+            <TextView
+                android:id="@+id/tvFact"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Factorial"
+                android:textSize="18sp"
+                android:textColor="#5C3D2E"
+                android:paddingBottom="16dp" />
+
+            <TextView
+                android:id="@+id/tvReverse"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Reverse String"
+                android:textSize="18sp"
+                android:textColor="#5C3D2E"
+                android:paddingBottom="16dp" />
+
+            <TextView
+                android:id="@+id/tvArray"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Array Sum"
+                android:textSize="18sp"
+                android:textColor="#5C3D2E"
+                android:paddingBottom="16dp" />
+
+            <TextView
+                android:id="@+id/tvMatrix"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Matrix"
+                android:textSize="18sp"
+                android:textColor="#5C3D2E"
+                android:paddingBottom="16dp" />
+
+            <TextView
+                android:id="@+id/tvForbidden"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Forbidden Chars"
+                android:textSize="18sp"
+                android:textColor="#5C3D2E"
+                android:paddingBottom="16dp" />
+
+            <TextView
+                android:id="@+id/tvBenchmark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Benchmark"
+                android:textSize="18sp"
+                android:textColor="#5C3D2E"
+                android:paddingBottom="16dp" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
